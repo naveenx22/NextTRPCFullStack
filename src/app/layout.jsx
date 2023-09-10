@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
+import Nav from '@/components/Nav'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
         />
       </head>
+      {/* <Nav /> */}
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   )

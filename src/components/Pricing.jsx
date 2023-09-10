@@ -105,35 +105,47 @@ export function Pricing() {
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          “Everything Starts as a Square” is available in two different packages
+          “Apply at Scale” is available in three different packages
           so you can pick the one that’s right for you.
         </p>
       </Container>
-      <div className="mx-auto mt-16 max-w-5xl lg:px-6">
-        <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
+      <div className="mx-auto mt-16 max-w-5 lg:px-6">
+        <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-3 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
             name="Essential"
             description="The perfect starting point if you’re on a budget."
-            price={15}
+            price={149}
             href="#"
             features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Community access',
+              '250 Applications',
+              '20+ Hours Saved',
+              'Validity: 1 Month',
+              '1 Job Role',
             ]}
           />
           <Plan
             featured
             name="Complete"
-            description="Everything icon resource you could ever ask for."
-            price={229}
+            description="Our most popular plan"
+            price={299}
             href="#"
             features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Over an hour of screencasts',
-              'Weekly icon teardowns',
-              'Community access',
+              '1000 Applications',
+              '80+ Hours Saved',
+              'Validity: 3 Months',
+              '2 Job Roles',
+            ]}
+          />
+          <Plan
+            name="Ultimate"
+            description="Everything you could ever ask for."
+            price={849}
+            href="#"
+            features={[
+              '3000 Applications',
+              '240+ Hours Saved',
+              'Validity: 12 Months',
+              'Multiple Job Roles',
             ]}
           />
         </div>
