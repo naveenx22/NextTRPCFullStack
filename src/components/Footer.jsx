@@ -15,7 +15,7 @@ export function Footer() {
           alt=""
         />
       </a>
-      <div className="relative text-center text-sm text-slate-600 ml-96">
+      <div className="relative text-center text-md text-slate-600 ml-96">
         <p>Copyright &copy; {new Date().getFullYear()} Apply At Scale, LLC</p>
         <p>All rights reserved.</p>
       </div>

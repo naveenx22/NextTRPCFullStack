@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import duotoneImage from '@/images/screencasts/duotone.svg'
 import gridsImage from '@/images/screencasts/grids.svg'
-import setupImage from '@/images/screencasts/setup.svg'
+import setupImage from '@/images/screencasts/sinup.png'
 import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [

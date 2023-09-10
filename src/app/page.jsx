@@ -27,7 +27,7 @@ export default function Home() {
       <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
-          name: 'Prakash Parekh',
+          name: 'Prakash Roy',
           role: 'Front-end developer',
           image: avatarImage1,
         }}
