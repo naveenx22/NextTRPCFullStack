@@ -38,17 +38,18 @@ export default function FAQ() {
 
     <section
     id="FAQ"
+    
     aria-labelledby="faq-title"
     className="scroll-mt-14 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
   >
 
-    <Container>
+    <Container className="">
         <SectionHeading number="6" id="faq-title">
           FAQs
         </SectionHeading>
 
     <div className="bg-white">
-      <div className="-mx-10 px-0 py-12 sm:py-32  lg:py-28">
+      <div className="-mx-14 px-0 py-12 sm:py-32  lg:py-28">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">

@@ -4,11 +4,12 @@ import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/plux.png'
+import aAS from '@/images/aas/aas-new-logo-cropped.svg'
 
 
 function Testimonial() {
   return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left -mt-28">
+    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left -mt-10">
       
       <div className="flex justify-center text-blue-600 lg:justify-start">
         <StarRating />
@@ -31,8 +32,10 @@ function Testimonial() {
 export function Hero() {
   return (
     <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5 ">
-     
       <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32 ">
+      <div className="absolute -my-24 -mx-36 z-20 rounded-e-full  flex w-44 px-4 overflow-hidden bg-white shadow-xl ">
+            <Image className="w-5 flex flex-1" src={aAS} alt="" priority />
+          </div>
       <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
           <div className="absolute -bottom-12 -top-20 left-0 right-1/2 z-10 rounded-br-6xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-32 lg:left-[-100vw] lg:right-full lg:-mr-40 ">
             <GridPattern

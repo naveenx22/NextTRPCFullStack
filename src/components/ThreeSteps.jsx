@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import discordImage from '@/images/resources/discord.svg'
-import figmaImage from '@/images/resources/figma.svg'
+import abstractBackgroundImage from '@/images/screencasts/apply.jpg'
+import discordImage from '@/images/screencasts/inter.png'
+import figmaImage from '@/images/screencasts/sinup.png'
 import videoPlayerImage from '@/images/resources/video-player.svg'
 import Link from 'next/link'
 
@@ -34,12 +34,7 @@ const resources = [
             alt=""
             sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
           />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
+          
         </div>
       )
     },
@@ -67,13 +62,12 @@ export function ThreeSteps() {
     >
       <Container>
         <SectionHeading number="2" id="resources-title">
-          Steps
+          Three Easy Steps
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        With Our Intuitive and User-Friendly Platform, You Can Get Started Quickly and Get a Clear Overview.
-        </p>
+        Our proven organizational system enables to keep everything simple and clear. </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Our proven organizational system enables to keep everythin simple and clear.
+          We have an intuitively designed and user-friendly platform, providing You with 100% guaranteed Transparency, clear communication & intimation, and control. 
         </p>
       </Container>
       <Container size="lg" className="mt-16">

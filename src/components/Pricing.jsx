@@ -30,7 +30,7 @@ function Plan({ name, description, price, features, href, featured }) {
         </h3>
         <p
           className={clsx(
-            'mt-2 text-lg tracking-tight',
+            'mt-2 text-md tracking-tight',
             featured ? 'text-white' : 'text-slate-600'
           )}
         >

@@ -51,7 +51,7 @@ const testimonials = [
   [
     {
       content:
-        'All I can say is wow — this is easily the best resource to outsource job search-n-apply  offered at an affordable price .',
+        'All I can say is wow — cheap and best tool to automate job search and application process imo.',
       author: {
         name: 'Leah Kiehn',
         role: 'Creative Lead',
