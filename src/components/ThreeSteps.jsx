@@ -67,7 +67,10 @@ export function ThreeSteps() {
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
         Our proven organizational system enables to keep everything simple and clear. </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          We have an intuitively designed and user-friendly platform, providing You with 100% guaranteed Transparency, clear communication & intimation, and control. 
+          We have an intuitively designed and user-friendly platform, providing You with 100% guaranteed&nbsp;  
+          <a class="underline decoration-indigo-500/30">Transparency, </a> clear&nbsp;
+          <a class="underline decoration-indigo-500/30">communication</a> and&nbsp;
+          <a class="underline decoration-indigo-500/30">intimation</a>, all under your&nbsp;<a class="underline decoration-indigo-500/30">control.</a> 
         </p>
       </Container>
       <Container size="lg" className="mt-16">
