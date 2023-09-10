@@ -63,7 +63,7 @@ export function Screencasts() {
     >
       <Container>
         <SectionHeading number="2" id="screencasts-title">
-          Screencasts
+          Three Steps
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Over an hour of high quality, step-by-step video content to sharpen

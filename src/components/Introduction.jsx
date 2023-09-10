@@ -28,7 +28,7 @@ export function Introduction() {
         <div className='flex'>
         <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
         <span className="ml-4 decoration-green-600 underline">Work Peacefully on your current job and attend interviews for jobs applied by us.</span>
-        </div><br />
+        </div><br /><br />
 
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
           "Imagine the time and energy you'll save! "
@@ -54,11 +54,11 @@ export function Introduction() {
             </li>
           ))}
         </ul>
-        <p className="mt-8">
+        <p className="mt-10 pt-6">
         We provide a free trial of 25 job applications.. By the end of this trial, you’ll have all the confidence you need to dig
           in and start your journey with us into a new future.
         </p>
-        <p className="mt-10">
+        <p className="mt-7">
           <Link
             href="#free-chapters"
             className="text-base font-medium text-blue-600 hover:text-blue-800"

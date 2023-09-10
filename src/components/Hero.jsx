@@ -9,6 +9,7 @@ import coverImage from '@/images/aas/aas-new-logo-cropped.svg'
 function Testimonial() {
   return (
     <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
+      
       <div className="flex justify-center text-blue-600 lg:justify-start">
         <StarRating />
       </div>
@@ -21,7 +22,7 @@ function Testimonial() {
         <strong className="font-semibold text-blue-600 before:content-['—_']">
           Stacey Solomon
         </strong>
-        , Founder at Retail Park
+        , Product Lead at Retail Park
       </figcaption>
     </figure>
   )
@@ -30,6 +31,16 @@ function Testimonial() {
 export function Hero() {
   return (
     <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
+      <div className="flex lg:flex-1 lg:bg-transparent">
+      <a href="#" className="m-1 p-1.5">
+        <span className="sr-only">Your Company</span>
+        <img
+          className="h-16 w-auto"
+          src="https://applyatscale.com/aas/aas-new-logo-cropped.svg"
+          alt=""
+        />
+      </a>
+    </div>
       <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32">
         
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">

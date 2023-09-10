@@ -10,15 +10,16 @@ const sections = [
     id: 'table-of-contents',
     title: (
       <>
-        <span className="hidden lg:inline">Table of contents</span>
+        <span className="hidden lg:inline">How</span>
         <span className="lg:hidden">Contents</span>
       </>
     ),
   },
-  { id: 'screencasts', title: 'Screencasts' },
-  { id: 'resources', title: 'Resources' },
+  { id: 'threesteps', title: 'Steps' },
+  { id: 'resources', title: 'Testimonials' },
   { id: 'pricing', title: 'Pricing' },
-  { id: 'author', title: 'Author' },
+  { id: 'author', title: 'Who We Are' },
+  { id: 'FAQ', title: 'FAQs' },
 ]
 
 function MenuIcon({ open, ...props }) {

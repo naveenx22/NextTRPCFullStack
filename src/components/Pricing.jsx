@@ -105,8 +105,7 @@ export function Pricing() {
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          “Apply at Scale” is available in three different packages
-          so you can pick the one that’s right for you.
+          We have carefully curated three different packages so you can pick the one that’s right for you.
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5 lg:px-6">
