@@ -11,7 +11,7 @@ export function Introduction() {
       aria-label="Introduction"
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
-      <Container className="text-lg tracking-tight text-slate-700 -mx-20">
+      <Container className="text-lg tracking-tight text-slate-700 -mx-28">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
           "Your Time Matters: Leave Job Applications to Us"
         </p>
